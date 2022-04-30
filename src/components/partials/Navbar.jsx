@@ -16,12 +16,12 @@ const Navbar = () => {
             <span className="text-2xl font-kronaOne">Jexmov</span>
           </a>
         </div>
-        <div className="text-2xl font-roboto font-semibold w-full h-auto py-1 flex justify-center items-center md:w-auto md:p-0">
+        <div className="text-2xl font-semibold w-full h-auto py-1 flex justify-center items-center md:w-auto md:p-0">
           <span className="mx-2 hover:animate-shrink cursor-pointer md:m-0" onClick={scrollTo.bind(this, "#topMovies")}>
             Top Movies
           </span>
           <Link className="mx-2 hover:animate-shrink md:m-0 md:ml-4" to="/movies">
-            List Movies
+            Movie List
           </Link>
         </div>
       </div>

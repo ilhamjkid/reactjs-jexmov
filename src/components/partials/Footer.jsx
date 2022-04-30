@@ -10,7 +10,7 @@ const Footer = () => {
             <img className="w-10 h-10 mr-2 pointer-events-none md:w-14 md:h-14 md:mr-4" src={JMLogo} alt="Jexmov Logo" />
             <span className="text-2xl font-kronaOne md:text-3xl">Jexmov</span>
           </div>
-          <h4 className="text-xl text-center font-roboto font-medium my-2 md:text-2xl">Copyright © 2022 Jexmov Indonesia</h4>
+          <h4 className="text-xl text-center font-medium my-2 md:text-2xl">Copyright © 2022 Jexmov Indonesia</h4>
         </div>
       </div>
     </footer>
