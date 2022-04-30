@@ -10,11 +10,7 @@ const TopMovies = () => {
     setMovies();
   }, [topMoviesData]);
   const setMovies = () => {
-    const newMovies = [];
-    topMoviesData.forEach((data, index) => {
-      if (index < 8) newMovies.push(data);
-    });
-    setTopMovies(newMovies);
+    setTopMovies(topMoviesData);
   };
   const sliceTitle = (title) => {
     if (title.length > 12) {
